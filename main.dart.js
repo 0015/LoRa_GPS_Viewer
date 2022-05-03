@@ -60627,10 +60627,10 @@ q=A.et("Open Serial Port",A.jv(o,o,s?B.bx:B.ft,o,o,o,o,o,o,o,o,18,o,B.L,o,o,!0,o
 s=p.r?new A.a7j(p):o
 q=A.pc(o,new A.cJ(B.Ak,o,r,o,o,o),s,o,q)
 s=q}else{s=A.pc(o,new A.cJ(B.Ah,o,B.qX,o,o,o),new A.a7k(p),o,B.Mq)
-r=A.pc(o,new A.cJ(B.A9,o,o,o,o,o),new A.a7l(p),o,A.et(p.y?"Turn off Distance":"Turn on Distance",B.k8,o,o))
-q=A.pc(o,new A.cJ(B.A6,o,o,o,o,o),new A.a7m(p),o,A.et(p.z?"GPS Time(Untouched)":"GPS Time In Local Time Zone",B.k8,o,o))
+r=A.pc(o,new A.cJ(B.A6,o,o,o,o,o),new A.a7l(p),o,A.et(p.y?"Measure Distance Off":"Measure Distance On",B.k8,o,o))
+q=A.pc(o,new A.cJ(B.A7,o,o,o,o,o),new A.a7m(p),o,A.et(p.z?"GPS Time(Untouched)":"GPS Time In Local Time Zone",B.k8,o,o))
 s=A.ol(A.b([s,new A.dy(B.eL,r,o),new A.dy(B.eL,q,o),new A.dy(B.eL,A.pc(o,new A.cJ(B.A4,o,o,o,o,o),new A.a7n(p),o,A.et(p.Q?"Closing Packet Monitor":"Showing Packet Monitor",B.k8,o,o)),o)],t.D),B.aZ,B.b8,B.b9)}r=t.D
-s=A.b([s,B.lf,A.pc(o,new A.cJ(B.A7,o,B.bx,o,o,o),new A.a7o(p),o,B.Mj)],r)
+s=A.b([s,B.lf,A.pc(o,new A.cJ(B.A8,o,B.bx,o,o,o),new A.a7o(p),o,B.Mj)],r)
 q=A.aT([null,0],t.LO,t.S)
 return new A.D1(B.v,A.ol(A.b([n,A.agS(new A.vr(new A.a1g(!0,!0,!0,s,q),B.ab,B.aV,!1,o,!0,B.kw,!1,o,3,B.U,B.ti,o,B.a9,o)),B.lf,A.cl(o,B.Mm,B.o,o,o,o,o,100,o,B.ll,o,o,o)],r),B.aZ,B.b8,B.b9),o)},
 n8(a){return this.Xg(a)},
@@ -60976,7 +60976,7 @@ l=i.he(new A.cJ(B.Ac,20,h,h,h,h),"SNR",A.e(l==null?g:l)+" dB")
 k=i.a.d.b.e
 j=k.a
 j.toString
-j=j?new A.cJ(B.Al,20,h,h,h,h):new A.cJ(B.A8,20,h,h,h,h)
+j=j?new A.cJ(B.Al,20,h,h,h,h):new A.cJ(B.A9,20,h,h,h,h)
 k=k.b
 k=i.he(j,"Battery",(k==null?"0.00":k)+" v")
 j=i.a.d.b.d
@@ -64105,10 +64105,10 @@ B.A2=new A.bF(63382,"MaterialIcons",null,!1)
 B.A3=new A.bF(63509,"MaterialIcons",null,!1)
 B.A4=new A.bF(61642,"Awesome Line Icons 1.3.0","line_icons",!1)
 B.A5=new A.bF(983602,"MaterialIcons",null,!1)
-B.A7=new A.bF(61737,"Awesome Line Icons 1.3.0","line_icons",!1)
-B.A6=new A.bF(62717,"Awesome Line Icons 1.3.0","line_icons",!1)
-B.A8=new A.bF(61671,"Awesome Line Icons 1.3.0","line_icons",!1)
-B.A9=new A.bF(61483,"Awesome Line Icons 1.3.0","line_icons",!1)
+B.A6=new A.bF(62789,"Awesome Line Icons 1.3.0","line_icons",!1)
+B.A8=new A.bF(61737,"Awesome Line Icons 1.3.0","line_icons",!1)
+B.A7=new A.bF(62717,"Awesome Line Icons 1.3.0","line_icons",!1)
+B.A9=new A.bF(61671,"Awesome Line Icons 1.3.0","line_icons",!1)
 B.Aa=new A.bF(63423,"Awesome Line Icons 1.3.0","line_icons",!1)
 B.Ab=new A.bF(61543,"Awesome Line Icons 1.3.0","line_icons",!1)
 B.Ac=new A.bF(61458,"Awesome Line Icons 1.3.0","line_icons",!1)
